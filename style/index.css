@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 1.5rem;
+    background-image: url(../img/fondo.jpg);
+     background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items: center; 
+    gap: 12px;       
+    padding: 8px;
+}
+header img{
+    height: 60px; 
+    width: auto;
+    display: block;
+    border-radius: 50px;
+}
+header h1{
+    margin: 0;  
+    font-family: 'titulo';
+    font-size: 2.5rem;
+    color: rgb(254, 239, 188);
+}
+
+p{
+    margin: 15px;
+    font-family: 'texto';
+    font-size: 1.2rem;
+    color: rgb(247, 224, 188);
+}
+
+#nombre{
+    margin: 6px;
+    font-size: 1rem;
+    font-family: 'texto';
+    color: rgb(109, 53, 29);
+    background-color: blanchedalmond;
+    border: 2px solid rgb(106, 10, 10);
+    border-radius: 6px;
+}
+
+#apellido{
+    margin: 6px;
+    font-size: 1rem;
+    font-family: 'texto';
+    color: rgb(109, 53, 29);
+    background-color: blanchedalmond;
+    border: 2px solid rgb(106, 10, 10);
+    border-radius: 6px;
+}
+
+#fecha{
+    margin: 6px;
+    font-size: 1rem;
+    font-family: 'texto';
+    color: rgb(109, 53, 29);
+    background-color: blanchedalmond;
+    border: 2px solid rgb(106, 10, 10);
+    border-radius: 6px;
+}
+
+#guardar{
+    margin: 6px;
+    font-size: 1rem;
+     font-family: 'texto';
+     transition-duration: 0.3s;
+    color: rgb(250, 236, 197);
+    background-color: rgb(53, 39, 54);
+    border: 2px solid rgb(53, 39, 54);
+    border-radius: 6px;
+}
+
+input::placeholder {
+    color: #d38b6c; /* color deseado */
+    opacity: 1;     /* evitar que algunos navegadores lo hagan semitransparente */
+}
+
+
+#guardar:hover{
+    transition-duration: 0.3s;
+    transform: translateY(3px);
+    color: rgb(53, 39, 54);
+    background-color: rgb(255, 192, 117);
+    border: 2px solid rgb(255, 192, 117);
+    box-shadow: 3px 3px 3px rgba(48, 6, 32, 0.681);
+}
+
+@font-face{
+    font-family: 'titulo';
+    src: url(../font/moon_get-Heavy.otf);
+}
+@font-face{
+    font-family: 'texto';
+    src: url(../font/Champagne\ &\ Limousines\ Bold.ttf);
+}
